@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0b1120;
+  color: white;
+}
+
+header {
+  background: #020617;
+  padding: 15px;
+  text-align: center;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card button {
+  background: #2563eb;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #1e40af;
+}
+
+.carrito {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.carrito li {
+  margin-bottom: 8px;
+}
+
+.carrito button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: #dc2626;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.carrito button:first-of-type {
+  background: #16a34a;
+}
+
+.carrito button:first-of-type:hover {
+  background: #15803d;
+}
+
+.categorias {
+  margin-bottom: 15px;
+}
+
+.categorias button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.categorias button:hover {
+  background: #2563eb;
+}
